@@ -78,7 +78,7 @@ function TemplateFour({ color, topic, post1, post2, post3, post4, description1, 
                           {userDB[topic]["Posts"][`PostImage_${i}`]['description'] && <p className={styles.description}>{userDB[topic]["Posts"][`PostImage_${i}`]['description']}</p>}
                       </div>}
                   </ div >
-              )}
+              )}     
             </div>
 
             {userDB[topic]["BannerBottom"] && <Banner ruta={topic} carpeta="BannerBottom" click={handlerClickEnlace} ></Banner>}
