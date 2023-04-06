@@ -1,4 +1,4 @@
-import { useUser } from '../context/Context.js'
+import { useUser } from '../context/Context.js'    
 import { Zoom, Fade } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css';
 import styles from '../styles/Banner.module.css'
