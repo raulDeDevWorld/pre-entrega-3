@@ -50,6 +50,7 @@ function TemplateFour({ color, topic, post1, post2, post3, post4, description1, 
 
             <div className={`${styles.gridThreeB} ${elements == true && styles.allVisible}`}>
 
+
                 {userDB && dataForDate.length > 0 && dataForDate.map((i, index) =>
 
                     <div key={index} >
@@ -80,6 +81,9 @@ function TemplateFour({ color, topic, post1, post2, post3, post4, description1, 
                         </div>}
                     </ div >
                 )}
+
+
+
 
             </div>
 
