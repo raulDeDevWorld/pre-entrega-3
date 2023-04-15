@@ -12,7 +12,7 @@
     overflow: hidden;
 }
 
-.section  div  div div a > img {
+.section > div > div > div > a > img {
     cursor: pointer;
     min-width: 100%;
     min-height: 100%;
