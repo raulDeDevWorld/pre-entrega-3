@@ -6,7 +6,15 @@
     width: 100%;
     margin-bottom: 0px;
 }
+.section  div  div div {
 
+    overflow: hidden;
+}
+
+.section  div  div div a{
+
+    overflow: hidden;
+}
 .section  div  div div a>img {
     cursor: pointer;
 
